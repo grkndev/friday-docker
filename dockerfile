@@ -1,16 +1,25 @@
 FROM node:23
 
+# Gerekli sistem bağımlılıklarını kur
+RUN apt-get update && apt-get install -y \
+    libcairo2-dev \
+    libpango1.0-dev \
+    libjpeg-dev \
+    libgif-dev \
+    librsvg2-dev \
+    pkg-config \
+    && rm -rf /var/lib/apt/lists/*
+
 WORKDIR /app
 
-# Copy package files
+# Paket dosyalarını kopyala
 COPY package*.json ./
 
-# Install dependencies
+# Bağımlılıkları kur
 RUN npm install
 
-# Copy project files
+# Proje dosyalarını kopyala
 COPY . .
 
-
-# Command to run the app
-CMD ["node", "app.js"] 
+# Uygulamayı çalıştır
+CMD ["node", "app.js"]
