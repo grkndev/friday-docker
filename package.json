@@ -1,0 +1,23 @@
+{
+  "name": "friday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "@discordjs/rest": "^1.0.1",
+    "@mineapi/sdk": "^1.0.4",
+    "@napi-rs/canvas": "^0.1.25",
+    "discord.js": "^14.1.1",
+    "i18next": "^21.8.14",
+    "i18next-fs-backend": "^1.1.4",
+    "mongoose": "^6.5.0",
+    "pretty-ms": "^7.0.1",
+    "undici": "^5.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

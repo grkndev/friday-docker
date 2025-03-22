@@ -1,0 +1,131 @@
+{
+  "minecraft":{
+    "bulunamadı":"Aradığınız kullanıcı bulunamadı",
+    "skin":"{{user}} adlı kullanıcının Skini",
+    "cape":"{{user}} adlı kullanıcının Pelerini",
+    "indir":"Skin Texture indir",
+    "capeYok":"Kullanıcıda Pelerin Bulunamadı",
+	"skinB":"API kaynaklı sorun yüzünden skinin yüklenmesi biraz zaman alabilir veya skin yüklenmeyebilir."
+  },
+  "modal": {
+    "bug": {
+        "formTitle": "Friday Hata/Açık Formu",
+        "baslikLabel": "Komut Adı",
+        "baslikHolder": "Açığı hangi komutda buldun?",
+        "desLabel": "Açıklama",
+        "desLholder": "bu hatayı nasıl buldun bize biraz açıklarmısın nasıl oldu bu?"
+    },
+    "istek": {
+        "formTitle": "Friday İstek/Şikayet Formu",
+        "baslikLabel": "Başlık",
+        "baslikHolder": "harika başlık",
+        "desLabel": "Açıklama",
+        "desLholder": "Ne istediğini bize söyle"
+    }
+  },
+  "istatistik": {
+    "title": "İstatistikler",
+    "c1": "Bot Sahibi",
+    "c2": "Ram Kullanım oranı:",
+    "c3": "Kütüphane",
+    "c4": "Gecikme",
+    "c5": "Kullanıcı sayısı",
+    "c6": "Sunucu sayısı",
+    "c7": "Kanal sayısı",
+    "c8": "Komut sayısı",
+    "c9": "Aktiflik Süresi",
+    "c10": {
+      "title": "Çevirmenler",
+      "value": "🇺🇸 İngilizce *—* Gweep Creative#0001\n:flag_tr: Türkçe *—* Gweep Creative#0001\ndahası yakında"
+    },
+    "c11": "Hata Avcı(ları)"
+  },
+  "embed": {
+    "footer": "{{user}} tarafından istendi",
+    "invite": { "title": "Benim davet linkim", "basbana": "Buraya tıkla" },
+    "yetkinYok": "Bu komutu kullanmak için yetkin yok"
+  },
+  "voice": {
+    "aktif": "Özel oda sistemi <#{{chl}}> kanalında aktif edildi",
+    "pasif": "Özel oda sistemi kapatıldı",
+    "zatenKapalı": "Özel oda sistemi bu sunucu için zaten kapatılı",
+    "sesliKanalagir": "Lütfen önce bir sesli kanala katıl!",
+    "burdaOlmaz": "Bu komutu, bu kanal için kullanamazsın",
+    "sahipDegil": "Bu kanalın sahibi sen değilsin!\n/voice sahiplen komutunu denemeyi düşündün mü?",
+    "kanalAd": "Kanal adı 1 ile 22 karakter arasında olmalıdır",
+    "kanalAdOk": "Kanal adı `{{newName}}` olarak değiştirildi",
+    "limitDegis": "Kanalın kullanıcı limiti `{{newLimit}}` olarak değiştirildi",
+    "davetEdildi": "<@{{user}}> kullanıcısı davet edildi",
+    "davetEdildin": "<@{{adam}}> sizi <#{{chl}}> kanalına davet etti",
+    "herkeseAcik": "Kanalınız **Herkese Açık** hale getirildi",
+    "herkeseKapali": "Kanalınız **Özel** hale getirildi",
+    "kendindeYapma": "Bunu kendinde yapamazsın",
+    "adamBaskaYerde": "Kullanıcı başka kanalda bulunuyor",
+    "kickYedi": "<@{{user}}> isimli kullanıcı, sesli kanalından atıldı",
+    "banYedi": "<@{{user}}> isimli kullanıcı, sesli kanalından yasaklandı",
+    "unbanYedi": "<@{{user}}> isimli kullanıcının yasağı kaldırıldı",
+    "sahiplendi": "Yaşasın! Artık bu kanalın sahibisin",
+    "zatenSahip": "Zaten bu kanalın sahibisin",
+    "sahiplenmeMesaj": "Bu kanalın sahibi zaten var, Kanal sahibine özel mesaj gönderdim. Eğer kabul ederse yeni kanal sahibi sen olcaksın.",
+    "sahipDM": "<@{{user}}> isimli kullanıcı <#{{chl}}> kanalını sahiplenmek için istekte bulundu",
+    "mesajGitmoo": "Bu kullanıcıya özel mesaj gönderemiyorum"
+  },
+  "button": {
+    "vote": "Bana oy ver",
+    "invite": "Beni davet et",
+    "bug": "Hata bildir!",
+    "istek": "Önerim/Şikayetim var!",
+    "kabul": "Kabul Et",
+    "red": "Reddet",
+    "kabuled": "Kabul Edildi",
+    "reded": "Reddedildi"
+  },
+  "help": {
+    "title": "Sesli Komutlar Menüsü",
+    "c1": {
+      "name": "voice ayarla aç <kanal>",
+      "value": "Ayarladığınız kanalda özel oda sistemini aktif eder"
+    },
+    "c2": {
+      "name": "voice ayarla kapat",
+      "value": "Sunucunuz için özel oda sismini kapatır"
+    },
+    "c3": { "name": "voice isim", "value": "Kanalınızın ismini değiştirir" },
+    "c4": {
+      "name": "voice limit",
+      "value": "Kanalınızın sesli odaya katılma limitini ayarlar"
+    },
+    "c5": {
+      "name": "voice davet",
+      "value": "Belirlediğiniz kullanıcıyı davet eder"
+    },
+    "c6": {
+      "name": "voice genel",
+      "value": "Kanalını herkese açık/kapalı hale getirir"
+    },
+    "c7": {
+      "name": "voice kick",
+      "value": "Belirlediğiniz kullanıcıyı kanaldan atar"
+    },
+    "c8": {
+      "name": "voice ban",
+      "value": "Belirlediğiniz kullanıcıyı kanaldan yasaklar"
+    },
+    "c9": {
+      "name": "voice yasak-kaldır",
+      "value": "Banladığınınz kullanıcının yasağını kaldırır"
+    },
+    "c10": {
+      "name": "voice sahiplen",
+      "value": "Bulunduğunuz kanalın sahibi olursunuz"
+    },
+    "c11": { "name": "ping", "value": "Botun gecikmesini gösterir" },
+    "c12": { "name": "info", "value": "Botun bilgilerini gösterir" },
+    "c13": { "name": "tweet", "value": "Tweet Gönderirsiniz" },
+    "c14": { "name": "minecraft", "value": "Minecraft Komutları" }
+  },
+  "lng": {
+    "updated": "Dil Güncellendi",
+    "desc": "Yeni Dil **Türçke** olarak ayarlandı"
+  }
+}

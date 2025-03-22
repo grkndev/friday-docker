@@ -1,0 +1,101 @@
+{
+  "minecraft":{
+    "bulunamadı":"User not found",
+    "skin":"{{user}}'s Skin",
+    "cape":"{{user}}'s Cape",
+    "indir":"Download Skin Texture",
+    "capeYok":"User don't have a Cape",
+	"skinB":"It may take some time or not load from the skin due to the API."
+  },
+  "modal": {
+    "bug": {
+        "formTitle": "Friday Bug Reporting Form",
+        "baslikLabel": "Command Name",
+        "baslikHolder": "In which command did you experience the bug?",
+        "desLabel": "Description",
+        "desLholder": "describe the error and write how it happened"
+    },
+    "istek": {
+        "formTitle": "Friday Suggestion/Complaint Form",
+        "baslikLabel": "Title",
+        "baslikHolder": "awesome title",
+        "desLabel": "Description",
+        "desLholder": "tell us what you want"
+    }
+  },
+  "istatistik":{
+    "title":"Statistics",
+    "c1":"Bot Owner",
+    "c2":"Ram Usage Rate:",
+    "c3":"Library",
+    "c4":"Ping",
+    "c5":"Number of Users",
+    "c6":"Number of Guilds",
+    "c7":"Number of Channels",
+    "c8":"Commands",
+    "c9":"Uptime",
+    "c10":{"title":"Translater","value":"🇺🇸 English *—* Gweep Creative#0001\n:flag_tr: Turkish *—* Gweep Creative#0001\nmore soon"},
+    "c11":"Bug Hunter(s)"
+  },
+  "embed": {
+      "footer":"Requested by {{user}}",
+      "invite":{"title":"My Invite Link","basbana":"Click Here"},
+      "yetkinYok":"You are not authorized to use this command"
+  },
+  "voice":{
+      "aktif":"Private channel system has been activated on <#{{chl}}>",
+      "pasif":"Private channel system has been closed",
+      "zatenKapalı":"Voice channel system is down for this server",
+      "sesliKanalagir":"Please join an audio channel!",
+      "burdaOlmaz":"You cannot use this command for this channel",
+      "sahipDegil":"You do not own the channel\nHave you tried using the /voice claim command?",
+      "kanalAd":"Channel name must be between 1 and 22 characters",
+      "kanalAdOk":"Channel name has been `{{newName}}` renamed",
+      "limitDegis":"Channel user limit changed to {{newLimit}}",
+      "davetEdildi":"<@{{user}}> has been invited",
+      "davetEdildin":"<@{{adam}}> invited you to the audio channel. => {{chl}}",
+      "herkeseAcik":"Your channel has been made **public**",
+      "herkeseKapali":"Your channel has been made **private**",
+      "kendindeYapma":"You can't throw yourself",
+      "adamBaskaYerde":"User is on another audio channel",
+      "kickYedi":"User named <@{{user}}> has been kicked from the voice channel",
+      "banYedi":"User named <@{{user}}> has been banned from the voice channel",
+      "unbanYedi":"User named <@{{user}}> has been unbanned from the voice channel",
+      "sahiplendi":"You are now the owner of this channel!",
+      "zatenSahip":"You already own this channel",
+      "sahiplenmeMesaj":"This channel have already owns, Private message sent to channel owner. If accepted, you will now be the owner of this channel.",
+      "sahipDM":"<@{{user}}> has submitted a request to own <#{{chl}}>",
+      "mesajGitmoo":"I can't send private messages to this user"
+  },
+  "button":{
+    "vote":"Vote Me",
+    "invite":"Invite me",
+    "bug":"Report a bug!",
+    "istek":"I have a suggestion/complaint!",
+    "kabul":"Accept",
+    "red":"Decline",
+    "kabuled":"Acceped",
+        "reded":"Declined"
+  },
+  "help": {
+    "title": "Voice Commands Menu",
+    "c1": {"name": "voice set open <channel>","value": "Activates the private room system on the specified channel"},
+    "c2": {"name": "voice set close","value": "Disable private room system on server"},
+    "c3": {"name": "voice name","value": "Change the name of the audio channel you have"},
+    "c4": {"name": "voice limit","value": "Change the limit of the audio channel you have"},
+    "c5": {"name": "voice invite","value": "Invite the user to your voice channel"},
+    "c6": { "name": "voice public", "value": "Change the audio channel to public" },
+    "c7": {"name": "voice kick","value": "You kick the user from your voice channel"},
+    "c8": {"name": "voice ban","value": "You ban the user from your voice channel"},
+    "c9": {"name": "voice unban","value": "You unban the user from your voice channel"},
+    "c10": { "name": "voice claim", "value": "You own the voice channel" },
+    "c11": { "name": "ping", "value": "The delay value of the bot" },
+    "c12": { "name": "info", "value": "information about the bot" },
+    "c13": { "name": "tweet", "value": "Send Tweet" },
+    "c14": { "name": "minecraft", "value": "Minecraft commands" }
+  },
+  "lng": {
+    "updated": "Language Updated",
+    "desc": "New language set to **English**"
+  }
+}
